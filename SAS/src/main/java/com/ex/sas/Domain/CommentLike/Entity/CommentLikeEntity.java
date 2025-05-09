@@ -11,11 +11,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name="CommentLike")
+@Table(name="comment_like")
 public class CommentLikeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer comment_like_pk;
+    private Integer commentLikePk;
 
     @ManyToOne
     @JoinColumn(name="user_pk")

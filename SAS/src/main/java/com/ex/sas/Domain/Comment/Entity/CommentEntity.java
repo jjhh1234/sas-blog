@@ -17,7 +17,7 @@ import java.time.LocalDate;
 public class CommentEntity {
     @Id
     @GeneratedValue( strategy = GenerationType.IDENTITY)
-    private Integer comment_pk;
+    private Integer commentPk;
 
     @ManyToOne
     @JoinColumn(name="post_pk")

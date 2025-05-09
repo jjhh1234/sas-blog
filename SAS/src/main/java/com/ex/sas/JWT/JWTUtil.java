@@ -16,7 +16,7 @@ public class JWTUtil {
     private SecretKey secretKey;
 
     //application.properties에 정의 해놓은 비밀키 변수 가져와서 비밀키 생성
-    public JWTUtil(@Value("S{spring.jwt.secret}") String secret){
+    public JWTUtil(@Value("${spring.jwt.secret}") String secret){
         this.secretKey = new SecretKeySpec(secret.getBytes(StandardCharsets.UTF_8),
                 Jwts.SIG.HS256.key().build().getAlgorithm());
     }

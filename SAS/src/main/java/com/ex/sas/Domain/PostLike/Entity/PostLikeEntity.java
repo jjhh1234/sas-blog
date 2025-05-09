@@ -11,17 +11,17 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name="PostLike")
+@Table(name="post_like")
 public class PostLikeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer post_like_pk;
+    private Integer postLikePk;
 
     @ManyToOne
-    @JoinColumn(name="user_pk")
+    @JoinColumn(name = "user_pk")
     private UserEntity user;
 
     @ManyToOne
-    @JoinColumn(name="post_pk")
+    @JoinColumn(name = "post_pk")
     private PostEntity post;
 }

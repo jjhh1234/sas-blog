@@ -11,31 +11,25 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
-@Table(name="Post")
+@Table(name="post")
 @Entity
 public class PostEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer post_pk;
+    private Integer postPk;
 
     @ManyToOne
     @JoinColumn(name="user_pk")
     private UserEntity user;
 
     @Column
-    private String post_name;
+    private String post_title;
 
     @Column
-    private String post_detail;
+    private String post_content;
 
     @Column
-    private Integer emotion_status;
-
-    @Column
-    private String post_imageURL;
-
-    @Column
-    private Integer hit;
+    private int hit;
 
     @Column
     private LocalDate post_date;

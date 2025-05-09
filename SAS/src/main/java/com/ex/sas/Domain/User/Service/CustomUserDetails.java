@@ -1,6 +1,8 @@
 package com.ex.sas.Domain.User.Service;
 
 import com.ex.sas.Domain.User.Entity.UserEntity;
+import lombok.Generated;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -8,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.Collections;
 
-
+@Getter
 @RequiredArgsConstructor
 public class CustomUserDetails implements UserDetails {
 
@@ -21,14 +23,21 @@ public class CustomUserDetails implements UserDetails {
         return Collections.emptyList();
     }
 
+    //userEntity 반환
+    public UserEntity getUserEntity() {
+        return userEntity;
+    }
+
+    //비밀번호 반환
     @Override
     public String getPassword() {
         return userEntity.getPassword();
     }
 
+    //userId 반환
     @Override
     public String getUsername() {
-        return userEntity.getId();
+        return userEntity.getUserId();
     }
 
     @Override
