@@ -96,6 +96,7 @@ const registerProfile = async() => {
                 Authorization: 'Bearer ' + localStorage.getItem('JWT')
             }
         });
+        alert("수정이 완료되었습니다.");
         setEditMode(false);
     }catch(e){
         console.error(e);

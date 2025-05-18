@@ -52,6 +52,7 @@ export default function Header({userLogin} : HeaderProps){
 
     const logoutButton = () => {
         localStorage.removeItem('JWT');
+        alert("로그아웃 되었습니다.");
         navigate("/Login");
     }
 
