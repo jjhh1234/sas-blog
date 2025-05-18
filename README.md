@@ -5,6 +5,22 @@
 - [역할] : Backend 및 Frontend 1명
 - [구현] : 회원가입 및 로그인, 글 및 댓글쓰기, 글 및 댓글 좋아요, 글 및 댓글 삭제, 글 및 댓글 수정, 메인게시판 페이징
 ## ⏲️ 개발기간
-- 2025.03.01 ~ 2025.04.01
+- 2025.04.01 ~ 2025.05.01
 ## ⚙️ 기술 스택 및 개발 환경
-- **Language** : <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+- **Language** : ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+- **Framework** : ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- **Server** : ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) 
+- **DataBase** : ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+- **ETC** : <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+## 📝 시스템 아키텍쳐
+ERD 설계도
+![image](https://github.com/user-attachments/assets/cf1ffcf7-4b62-4172-bdb0-384403fe14a3)
+## 📌 주요기능
+1. **회원가입 및 로그인**
+2. **메인페이지**
+3. **글쓰기**
+4. **게시글 좋아요 및 취소**
+5. **댓글 좋아요 및 취소**
+6. **글 삭제 및 수정**
+7. **댓글 삭제 및 수정**
+8. **회원정보 수정 및 로그아웃**
