@@ -22,10 +22,11 @@ ERD 설계도
 ![Image](https://github.com/user-attachments/assets/fc5f894d-3350-487b-8b3c-29207de99d3d)
 3. **댓글쓰기**
 ![Image](https://github.com/user-attachments/assets/37e6975d-b975-4972-89f2-2213b305547c)
-6. **게시글 좋아요 및 취소**
-7. **댓글 좋아요 및 취소**
-8. **게시글, 댓글 수정**
+4. **게시글, 댓글 좋아요 및 취소**
+![Image](https://github.com/user-attachments/assets/476df924-875c-44ac-a651-1dc16f6cb132)
+5. **게시글, 댓글 수정**
 ![Image](https://github.com/user-attachments/assets/0d286d1d-98f7-4aad-ac59-3a48f2b33292)
-10. **게시글, 댓글 삭제**
+6. **게시글, 댓글 삭제**
 ![Image](https://github.com/user-attachments/assets/0effc7c1-bf73-401b-8821-e67822e37f8e)
-12. **회원정보 수정 및 로그아웃**
+7. **회원정보 수정 및 로그아웃**
+![Image](https://github.com/user-attachments/assets/a7b6e552-66e4-45b9-9286-ab7921ba1d61)
