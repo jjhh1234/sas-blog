@@ -17,16 +17,14 @@ ERD 설계도
 ![image](https://github.com/user-attachments/assets/cf1ffcf7-4b62-4172-bdb0-384403fe14a3)
 ## 📌 주요기능
 1. **회원가입 및 로그인**
-![Image](https://github.com/user-attachments/assets/b08588b1-d36e-426c-a1b8-9a8b1b66a536)
-2. **글쓰기**
-![Image](https://github.com/user-attachments/assets/fc5f894d-3350-487b-8b3c-29207de99d3d)
-3. **댓글쓰기**
-![Image](https://github.com/user-attachments/assets/37e6975d-b975-4972-89f2-2213b305547c)
-4. **게시글, 댓글 좋아요 및 취소**
+![Image](https://github.com/user-attachments/assets/1d8a25ea-5fde-42d9-bbad-22fd35928846)
+2. **글쓰기 및 댓글쓰기**
+![Image](https://github.com/user-attachments/assets/77a53ade-f93f-4046-aabc-5028d3a626c9)
+3. **게시글, 댓글 좋아요 및 취소**
 ![Image](https://github.com/user-attachments/assets/476df924-875c-44ac-a651-1dc16f6cb132)
-5. **게시글, 댓글 수정**
-![Image](https://github.com/user-attachments/assets/0d286d1d-98f7-4aad-ac59-3a48f2b33292)
-6. **게시글, 댓글 삭제**
-![Image](https://github.com/user-attachments/assets/0effc7c1-bf73-401b-8821-e67822e37f8e)
-7. **회원정보 수정 및 로그아웃**
+4. **게시글, 댓글 수정**
+![Image](https://github.com/user-attachments/assets/53436538-efb9-4e6d-913c-f265ea61c0d1)
+5. **게시글, 댓글 삭제**
+![Image](https://github.com/user-attachments/assets/3cef3deb-8e02-4067-a298-8bd86710563e)
+6. **회원정보 수정 및 로그아웃**
 ![Image](https://github.com/user-attachments/assets/a7b6e552-66e4-45b9-9286-ab7921ba1d61)
