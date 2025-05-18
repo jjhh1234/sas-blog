@@ -1,7 +1,6 @@
 package com.ex.sas.Domain.Comment.Repository;
 
 import com.ex.sas.Domain.Comment.Entity.CommentEntity;
-import com.ex.sas.Domain.Post.Entity.PostEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

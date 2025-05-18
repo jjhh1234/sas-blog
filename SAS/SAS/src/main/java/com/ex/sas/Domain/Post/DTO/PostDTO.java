@@ -2,10 +2,7 @@ package com.ex.sas.Domain.Post.DTO;
 
 import com.ex.sas.Domain.Post.Entity.PostEntity;
 import lombok.*;
-import org.springframework.cglib.core.Local;
-
 import java.time.LocalDate;
-import java.util.List;
 
 @Getter
 @Setter

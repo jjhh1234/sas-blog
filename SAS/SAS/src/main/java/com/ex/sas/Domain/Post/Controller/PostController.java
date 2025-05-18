@@ -2,14 +2,11 @@ package com.ex.sas.Domain.Post.Controller;
 
 import com.ex.sas.Domain.Post.DTO.PostDTO;
 import com.ex.sas.Domain.Post.Service.PostService;
-
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequiredArgsConstructor

@@ -1,6 +1,5 @@
 package com.ex.sas.Domain.PostLike.Repository;
 
-import com.ex.sas.Domain.Post.Entity.PostEntity;
 import com.ex.sas.Domain.PostLike.Entity.PostLikeEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

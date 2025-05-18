@@ -1,9 +1,6 @@
 package com.ex.sas.Domain.CommentLike.Repository;
 
-import com.ex.sas.Domain.Comment.Entity.CommentEntity;
-import com.ex.sas.Domain.CommentLike.DTO.CommentLikeDTO;
 import com.ex.sas.Domain.CommentLike.Entity.CommentLikeEntity;
-import lombok.RequiredArgsConstructor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

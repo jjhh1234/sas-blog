@@ -1,7 +1,6 @@
 package com.ex.sas.Domain.CommentLike.DTO;
 
 import lombok.*;
-import org.checkerframework.checker.units.qual.N;
 
 @Getter
 @Setter

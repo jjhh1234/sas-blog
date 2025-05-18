@@ -1,7 +1,6 @@
 package com.ex.sas.Domain.User.Service;
 
 import com.ex.sas.Domain.User.Entity.UserEntity;
-import lombok.Generated;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;

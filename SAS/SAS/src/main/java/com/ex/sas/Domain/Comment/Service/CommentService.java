@@ -3,7 +3,6 @@ package com.ex.sas.Domain.Comment.Service;
 import com.ex.sas.Domain.Comment.DTO.CommentDTO;
 import com.ex.sas.Domain.Comment.Entity.CommentEntity;
 import com.ex.sas.Domain.Comment.Repository.CommentRepository;
-import com.ex.sas.Domain.CommentLike.DTO.CommentLikeDTO;
 import com.ex.sas.Domain.CommentLike.Entity.CommentLikeEntity;
 import com.ex.sas.Domain.CommentLike.Repository.CommentLikeRepository;
 import com.ex.sas.Domain.Post.Entity.PostEntity;

@@ -2,7 +2,6 @@ package com.ex.sas.Domain.PostLike.Service;
 
 import com.ex.sas.Domain.Post.Entity.PostEntity;
 import com.ex.sas.Domain.Post.Repository.PostRepository;
-import com.ex.sas.Domain.Post.Service.PostService;
 import com.ex.sas.Domain.PostLike.DTO.PostLikeDTO;
 import com.ex.sas.Domain.PostLike.Entity.PostLikeEntity;
 import com.ex.sas.Domain.PostLike.Repository.PostLikeRepository;
@@ -15,7 +14,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 @RequiredArgsConstructor
 @Service

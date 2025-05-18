@@ -1,7 +1,5 @@
 package com.ex.sas.Domain.User.Controller;
 
-import com.ex.sas.Domain.Comment.DTO.CommentDTO;
-import com.ex.sas.Domain.Post.DTO.PostDTO;
 import com.ex.sas.Domain.User.DTO.JoinDTO;
 import com.ex.sas.Domain.User.Service.JoinService;
 import lombok.RequiredArgsConstructor;
