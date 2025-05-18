@@ -194,6 +194,23 @@ export default function Post(){
     };
         fetchData();
     },[postEditMode]);
+
+    //글 조회수 추가
+     useEffect(() => {
+        const fetchData = async() => {
+        try{
+            const response = await axios.post(`http://localhost:8080/postHit/${postId}`,{}, {
+                headers: {
+                    Authorization: 'Bearer ' + localStorage.getItem('JWT')
+                }
+            });    
+        }
+        catch(e){
+            console.error(e);
+        }
+    };
+        fetchData();
+    },[]);
     
     //게시글 좋아요 갯수 불러오기
     useEffect(()=> {
