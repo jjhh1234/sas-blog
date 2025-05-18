@@ -17,10 +17,15 @@ ERD 설계도
 ![image](https://github.com/user-attachments/assets/cf1ffcf7-4b62-4172-bdb0-384403fe14a3)
 ## 📌 주요기능
 1. **회원가입 및 로그인**
-2. **메인페이지**
-3. **글쓰기**
-4. **게시글 좋아요 및 취소**
-5. **댓글 좋아요 및 취소**
-6. **글 삭제 및 수정**
-7. **댓글 삭제 및 수정**
-8. **회원정보 수정 및 로그아웃**
+![Image](https://github.com/user-attachments/assets/b08588b1-d36e-426c-a1b8-9a8b1b66a536)
+2. **글쓰기**
+![Image](https://github.com/user-attachments/assets/fc5f894d-3350-487b-8b3c-29207de99d3d)
+3. **댓글쓰기**
+![Image](https://github.com/user-attachments/assets/37e6975d-b975-4972-89f2-2213b305547c)
+6. **게시글 좋아요 및 취소**
+7. **댓글 좋아요 및 취소**
+8. **게시글, 댓글 수정**
+![Image](https://github.com/user-attachments/assets/0d286d1d-98f7-4aad-ac59-3a48f2b33292)
+10. **게시글, 댓글 삭제**
+![Image](https://github.com/user-attachments/assets/0effc7c1-bf73-401b-8821-e67822e37f8e)
+12. **회원정보 수정 및 로그아웃**
