@@ -132,7 +132,7 @@ export default function Login() {
         if(button==true){
             (async () => {
                 try{
-                    await axios.post(`http://localhost:8080/join`,{
+                    await axios.post(`/join`,{
                         userId : id,
                         userName: name,
                         userIntroduce: intro,

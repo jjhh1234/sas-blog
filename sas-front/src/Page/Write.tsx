@@ -59,7 +59,7 @@ const contentHandler = (e : React.ChangeEvent<HTMLTextAreaElement>) => {
 
 const register = async() => {
     try{
-        const response = await axios.post(`http://localhost:8080/post`,
+        const response = await axios.post(`/post`,
             {
                 title : title,
                 content : content

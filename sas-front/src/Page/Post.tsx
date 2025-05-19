@@ -177,7 +177,7 @@ export default function Post(){
     useEffect(() => {
         const fetchData = async() => {
         try{
-            const response = await axios.get(`http://localhost:8080/post/${postId}`, {
+            const response = await axios.get(`/post/${postId}`, {
                 headers: {
                     Authorization: 'Bearer ' + localStorage.getItem('JWT')
                 }
@@ -199,7 +199,7 @@ export default function Post(){
      useEffect(() => {
         const fetchData = async() => {
         try{
-            const response = await axios.post(`http://localhost:8080/postHit/${postId}`,{}, {
+            const response = await axios.post(`/postHit/${postId}`,{}, {
                 headers: {
                     Authorization: 'Bearer ' + localStorage.getItem('JWT')
                 }
@@ -216,7 +216,7 @@ export default function Post(){
     useEffect(()=> {
         const fetchData = async() => {
             try{
-                const response = await axios.get(`http://localhost:8080/postLike/${postId}`,{
+                const response = await axios.get(`/postLike/${postId}`,{
                     headers: {
                         Authorization: 'Bearer ' + localStorage.getItem('JWT')
                     }
@@ -235,7 +235,7 @@ export default function Post(){
     useEffect(()=> {
         const fetchData = async() => {
             try{
-            const response = await axios.get(`http://localhost:8080/postLikeSet/${postId}`,{
+            const response = await axios.get(`/postLikeSet/${postId}`,{
                 headers: {
                     Authorization: 'Bearer ' + localStorage.getItem('JWT')
                 }
@@ -254,7 +254,7 @@ export default function Post(){
             //true이면 좋아요 취소
             if(postLikeSet){
                 try{
-                    const response = await axios.delete(`http://localhost:8080/postLike/${postId}`,{
+                    const response = await axios.delete(`/postLike/${postId}`,{
                         headers: {
                             Authorization: 'Bearer ' + localStorage.getItem('JWT')
                         }
@@ -266,7 +266,7 @@ export default function Post(){
                 // false 이면 좋아요 추가
             }else{
                 try{
-                    const response = await axios.post(`http://localhost:8080/postLike/${postId}`,{},{
+                    const response = await axios.post(`/postLike/${postId}`,{},{
                         headers: {
                             Authorization: 'Bearer ' + localStorage.getItem('JWT')
                         }
@@ -282,7 +282,7 @@ export default function Post(){
     useEffect(() => {
         const fetchData = async() => {
             try{
-                 const response = await axios.get(`http://localhost:8080/commentLikeNumList/${postId}`,{
+                 const response = await axios.get(`/commentLikeNumList/${postId}`,{
                         headers: {
                             Authorization: 'Bearer ' + localStorage.getItem('JWT')
                         }
@@ -299,7 +299,7 @@ export default function Post(){
     useEffect(() => {
         const fetchData = async() => {
             try{
-                const response = await axios.get<CommentList[]>(`http://localhost:8080/commentLikeList/${postId}`,{
+                const response = await axios.get<CommentList[]>(`/commentLikeList/${postId}`,{
                     headers: {
                         Authorization: 'Bearer ' + localStorage.getItem('JWT')
                     }
@@ -316,7 +316,7 @@ export default function Post(){
     //댓글 불러오기
         const fetchData = async() => {
             try{
-                const response = await axios.get(`http://localhost:8080/commentList/${postId}`,{
+                const response = await axios.get(`/commentList/${postId}`,{
                     headers: {
                         Authorization: 'Bearer ' + localStorage.getItem('JWT')
                     }
@@ -335,7 +335,7 @@ export default function Post(){
 
     //좋아요 버튼 핸들러
     const commentIdHandler = async( commentId: number ) => {
-        const response = await axios.get(`http://localhost:8080/commentLikeSet/${commentId}`,{
+        const response = await axios.get(`/commentLikeSet/${commentId}`,{
             headers: {
                 Authorization: 'Bearer ' + localStorage.getItem('JWT')
             }
@@ -344,7 +344,7 @@ export default function Post(){
     if(!isLike){
         //owner가 false 이면 좋아요 추가
     try{
-        const response = await axios.post(`http://localhost:8080/commentLike/${commentId}`,{},{
+        const response = await axios.post(`/commentLike/${commentId}`,{},{
             headers: {
                 Authorization: 'Bearer ' + localStorage.getItem('JWT')
             }
@@ -356,7 +356,7 @@ export default function Post(){
     {
         //owner가 true 이면 좋아요 취소
         try{
-            const response = await axios.delete(`http://localhost:8080/commentLike/${commentId}`,{
+            const response = await axios.delete(`/commentLike/${commentId}`,{
                 headers: {
                     Authorization: 'Bearer ' + localStorage.getItem('JWT')
                 }
@@ -380,7 +380,7 @@ export default function Post(){
     //등록 버튼 핸들러
     const registerBtn = async() => {
         try{
-            const response = await axios.post(`http://localhost:8080/comment/${postId}`,
+            const response = await axios.post(`/comment/${postId}`,
                 {
                     comment_detail : comment
                 }
@@ -399,13 +399,14 @@ export default function Post(){
     //댓글 삭제 핸들러
     const commentDeleteHandler = async(commentId : number) => {
         try{
-            const response = await axios.delete(`http://localhost:8080/comment/${commentId}`,
+            const response = await axios.delete(`/comment/${commentId}`,
                 {
                 headers: {
                     Authorization: 'Bearer ' + localStorage.getItem('JWT')
                 }
             });  
             fetchData(); 
+            alert("삭제가 완료되었습니다.");
         }catch(e){
             console.error(e);
         }   
@@ -416,7 +417,7 @@ export default function Post(){
         const confirmed = window.confirm("게시글을 삭제하시겠습니까?");
         if(confirmed){
             try{
-                const response = await axios.delete(`http://localhost:8080/post/${postId}`,
+                const response = await axios.delete(`/post/${postId}`,
                     {
                     headers: {
                         Authorization: 'Bearer ' + localStorage.getItem('JWT')
@@ -443,7 +444,7 @@ export default function Post(){
     //게시글 수정핸들러
         const editPostHandler = async() => {
                 try{
-                    const response = await axios.put(`http://localhost:8080/post/${postId}`,
+                    const response = await axios.put(`/post/${postId}`,
                         {
                             title : title,
                             content : content
@@ -477,7 +478,7 @@ export default function Post(){
     //댓글 수정핸들러
     const editCommentHandler = async() => {
         try{
-            const response = await axios.put(`http://localhost:8080/comment/${commentId}`,
+            const response = await axios.put(`/comment/${commentId}`,
                 {
                     comment_detail : commentContent
                 }

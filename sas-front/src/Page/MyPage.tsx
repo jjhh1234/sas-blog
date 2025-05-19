@@ -65,7 +65,7 @@ const [info, setInfo] = useState('');
 useEffect(() => {
     const fetchData = async() => {
         try{
-            const response = await axios.get(`http://localhost:8080/profile`,{
+            const response = await axios.get(`/profile`,{
                 headers: {
                     Authorization: 'Bearer ' + localStorage.getItem('JWT')
                 }
@@ -86,7 +86,7 @@ const putHandler = () => {
 
 const registerProfile = async() => {
     try{
-        const response = await axios.put(`http://localhost:8080/profile`
+        const response = await axios.put(`/profile`
             ,{
                 userName : nickName,
                 userIntroduce : info

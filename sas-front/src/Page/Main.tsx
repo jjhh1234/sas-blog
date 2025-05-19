@@ -126,7 +126,7 @@ const navigate = useNavigate();
 useEffect(() => {
     const fetchData = async() => {
         try{
-            const response = await axios.get(`http://localhost:8080/pageList?page=${pageNumber}`,
+            const response = await axios.get(`/pageList?page=${pageNumber}`,
                 {
                     headers: {
                         Authorization: 'Bearer ' + localStorage.getItem('JWT')

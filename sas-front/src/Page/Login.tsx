@@ -98,7 +98,7 @@ export default function Login() {
     if(login==true){
        (async() => {
         try {
-            const response = await axios.post(`http://localhost:8080/login`,formData);
+            const response = await axios.post(`/login`,formData);
             const fulltoken : string = response.headers['authorization']; 
             const token : string = fulltoken.split(' ')[1];
             localStorage.setItem('JWT', token);
