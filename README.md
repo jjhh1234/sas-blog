@@ -18,8 +18,10 @@
 - **DataBase** : ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 - **ETC** : <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ## 📝 프로젝트 아키텍쳐
-ERD 설계도
++ ERD 설계도
 ![image](https://github.com/user-attachments/assets/cf1ffcf7-4b62-4172-bdb0-384403fe14a3)
++ 시스템 아키텍쳐
+![Image](https://github.com/user-attachments/assets/100ec896-163b-4cf5-b8e9-75fa60a5faa9)
 ## 📌 주요기능
 1. **회원가입 및 로그인**
 ![Image](https://github.com/user-attachments/assets/1d8a25ea-5fde-42d9-bbad-22fd35928846)
