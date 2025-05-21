@@ -21,7 +21,7 @@
 + ERD 설계도
 ![image](https://github.com/user-attachments/assets/cf1ffcf7-4b62-4172-bdb0-384403fe14a3)
 + 시스템 아키텍쳐
-![Image](https://github.com/user-attachments/assets/100ec896-163b-4cf5-b8e9-75fa60a5faa9)
+![Image](https://github.com/user-attachments/assets/87d0b5d2-6f7a-47c5-a8c1-1842888ec5a4)
 ## 📌 주요기능
 1. **회원가입 및 로그인**
 ![Image](https://github.com/user-attachments/assets/1d8a25ea-5fde-42d9-bbad-22fd35928846)
